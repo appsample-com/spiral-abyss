@@ -1,34 +1,41 @@
 {
     "ui": {
-        "showMore": "Show More"
+        "showMore": "Show More",
+        "gotIt": "Got It"
     },
     "term": {
         "firstHalf": "First Half",
         "secondHalf": "Second Half"
     },
     "header": {
-        "h1": "Beating Genshin Impact<sup class=\"text-gold\"><small>{0}</small></sup> Spiral Abyss",
-        "h3": "The Authoritative Guide To"
+        "h1": "Genshin Impact<sup class=\"text-gold\"><small>{0}</small></sup> Spiral Abyss",
+        "h3": "The Ultimate Guide To"
     },
     "footer": {
-        "delete": "We keep most recent 45,000 records and delete out-of-date data, so rankings are subject to change over time.",
+        "delete": "We keep most recent {0} records for each floor and delete out-of-date data, so rankings are subject to change over time.",
         "battleRecords": "Wanna do some research or write ranking algorithm?",
-        "download": "Download battle rocords",
+        "download": "Download battle records",
         "questions": "Any other questions?",
         "createIssue": "Create an issue"
     },
     "index": {
         "selectFloor": "Select A Floor To Get Started",
         "wa": "Most Used Weapons And Artifacts",
-        "star36": "Research Based On ★36 Winners, Floor 9-12",
-        "own": "% of Players<br />Own This Character",
-        "use": "(If Own) How Likely<br />Is It To Use This Character",
+        "star36": "Research Based On {0} ★36 Winners, Floor 9-12, all servers.",
+        "rankingDesc": " <b>Own</b> = Percentage of ★36 winners who own this character. <b>Used</b> = How likely is it to use this character for havers. <b>Not Used</b> = Character has been leveled up to ≥71 but was not used.",
+        "ranking": "ranking",
+        "own": "Own %",
+        "use": "Used %",
+        "deprecated": "Not Used %",
         "lvc": "Avg Lv&C"
     },
     "main": {
+        "phaseFilterAlert": "You are viewing data collected between {0} and {1}, report may not be accurate until there are enough samples.",
+        "datasetAlert": "You are viewing a subset({0}) of data, report may not be accurate until there are enough samples.",
+        "phaseFilterUndo": "Switch back to v{0} full dataset",
         "tierList": "Character Usage Rate - Floor {0}",
         "tierListDesc": "Tier list is based on {0} ★3 Battles.",
-        "tierListPersantage": "Persantage",
+        "tierListPercentage": "Percentage",
         "tierListUse": "# of players use it",
         "tierListOwn": "# of players own it",
         "mvc": "Most Valuable Characters",
@@ -38,14 +45,23 @@
         "firstH": "First Half Best Teams",
         "secondH": "Second Half Best Teams",
         "popularTeam": "Popular ★3 Team",
-        "popularTeamPercentage": "Percentage",
+        "popularTeamTime": "Avg Time",
+        "popularTeamTimeEst": "Est Time",
+        "popularTeamPercentage": "Pct.",
         "combo": "Most Popular Combos",
-        "comboDesc": "These ★9 teams clear the whole floor {0} without swapping out members",
+        "comboDesc": "These ★9 teams clear the whole floor {0} without character substitutions",
         "comboCustom": "✨ Make Your Combo",
         "comboCustomDesc": "Select 1~8 characters that you like and get our recommendations",
-        "teammate": "Most Common Teammates (Archons Skipped)",
-        "teammateDesc": "Venti and Zhongli are excluded from this list since they are everywhere",
+        "teammate": "Most Common Teammates",
+        "teammateDesc": "By default, Venti and Zhongli are excluded from this list",
         "proportion": "Data Source / Battle Proportion"
+    },
+    "dataset": {
+        "all": "Full Dataset",
+        "cn": "China",
+        "non-cn": "SERVER=Non-CN",
+        "usa-euro": "America/EU",
+        "asia": "Asia"
     },
     "submit": {
         "h1": "Submit Your Spiral Abyss Battle Records",
@@ -53,5 +69,17 @@
         "skip": "(If you are CN player, please skip this step)",
         "step2": "If you agree to share your data, submit your in-game UID below",
         "submit": "Submit"
+    },
+    "leaderboards": {
+        "martial_legend": {
+            "h3": "Legend of the Vagabond Sword",
+            "h1": "Genshin Impact Leaderboards",
+            "desc": "Due to technical limitations leaderboard only supports players from mainland China. Ranking priorities: [total score] [team size] [retry times]."
+        },
+        "channeller_slab": {
+            "h3": "Energy Amplifier Initiation",
+            "h1": "Genshin Impact Leaderboards",
+            "desc": "Due to technical limitations leaderboard only supports players from mainland China. Ranking priorities: [total score] [team size] [retry times]."
+        }
     }
 }
