@@ -1,6 +1,6 @@
 # Spiral Abyss Analytics
 
-https://spiral-abyss.appsample.com
+https://spiralabyss.org
 
 ## Build your own algorithm
 
